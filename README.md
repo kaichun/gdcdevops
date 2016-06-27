@@ -1,4 +1,5 @@
-# gdcdevops - to simply build DevOps demo environment.
+# gdcdevops 
+To simply build DevOps demo environment.
 
 ### Steps,
 •	mkdir /tmp/gdcdevops
