@@ -4,11 +4,11 @@
 ## Steps
 ## mkdir /tmp/gdcdevops
 ## cd /tmp/gdcdevops
-## curl -k -L https://github.com/kaichun/gdcdevops/blob/master/build-docker-compose.sh | bash /dev/stdin
+## curl -k -L https://raw.githubusercontent.com/kaichun/gdcdevops/master/build-docker-compose.sh | bash /dev/stdin
 ## To stop: docker-compose stop
 ## To start: docker-compose up --no-recreate -d
 ######################################################################################################
 
 #!/bin/bash
-wget https://github.com/kaichun/gdcdevops/blob/master/docker-compose.yml --no-check-certificate
+wget https://raw.githubusercontent.com/kaichun/gdcdevops/master/docker-compose.yml --no-check-certificate
 docker-compose up -d
